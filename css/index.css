@@ -90,12 +90,24 @@ a{
     color:black;
 }
 
+a:hover {
+    color:grey;
+}
+
 .about div{
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     margin: 2%;
+}
+
+.about img{
+    width: 100%;
+}
+
+.main-about img{
+    width: 100%;
 }
 
 .about{
@@ -153,6 +165,23 @@ a{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container-contact{
+    justify-content: center;
+}
+
+.middle-content-contact{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.middle-content-contact input{
+    width: 100%;
+}
+
+.middle-content-contact #description{
+    height: 200px;
 }
 
 .middle-content {
